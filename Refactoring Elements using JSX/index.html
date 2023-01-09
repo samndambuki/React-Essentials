@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      let ul =  React.createElement(
+       "u1",
+       {style:{color:"blue"}},
+       React.createElement("li",null,"Call"),
+       React.createElement("li",null,"Me"),
+       React.createElement("li",null,"Jsx")
+      );
+      ReactDOM.render(
+        <ul>
+          <li>Sam</li>
+          <li>John</li>
+          <li>James</li>
+        </ul>,
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>
